@@ -10,6 +10,8 @@ RUN npm install
 
 RUN npm install dotenv --save
 
+RUN npm install mongodb
+
 
 COPY . .
 
